@@ -1,0 +1,15 @@
+target/
+logs/
+!.mvn/wrapper/maven-wrapper.jar
+build/
+out/
+target/
+*.iml
+.idea/
+.DS_Store
+.classpath
+.settings/
+.project
+*.log
+*.ipr
+*.iws
