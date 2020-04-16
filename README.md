@@ -15,41 +15,7 @@ rectangles as input through the command line which is used to draw those shapes.
 
 Below examples show how the output looks for each type of user inputs
 
-1. C 20 5
-----------------------
-|                    |
-|                    |
-|                    |
-|                    |
-|                    |
-----------------------
-
-2. L 1 3 7 3
-----------------------
-|                    |
-|                    |
-|xxxxxxx             |
-|                    |
-|                    |
-----------------------
-
-3. L 7 1 7 3
-----------------------
-|      x             |
-|      x             |
-|xxxxxxx             |
-|                    |
-|                    |
-----------------------
-
-4. R 15 2 20 5
-----------------------
-|      x             |
-|      x       xxxxxx|
-|xxxxxxx       x    x|
-|              x    x|
-|              xxxxxx|
-----------------------
+![Sample Commands](./src/main/resources/Drawing.PNG)
 
 #### To create the jar file
 Run "mvn clean package"
